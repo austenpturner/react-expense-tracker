@@ -83,7 +83,10 @@ export default function Summary({
             justifyContent={"center"}
           >
             <Heading>
-              <TransactionChartSummary expense={100} income={1000} />
+              <TransactionChartSummary
+                expense={totalExpense}
+                income={totalIncome}
+              />
             </Heading>
           </Box>
         </Flex>
